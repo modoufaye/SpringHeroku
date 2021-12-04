@@ -1,0 +1,6 @@
+org\sid2\springheroku\SpringHerokuApplication.class
+org\sid2\springheroku\dao\EtudiantRepository.class
+org\sid2\springheroku\web\EtudiantController.class
+org\sid2\springheroku\security\SecurityController.class
+org\sid2\springheroku\entities\Etudiant.class
+org\sid2\springheroku\security\SecurityConfig.class
