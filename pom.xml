@@ -12,6 +12,7 @@
 	<artifactId>SpringHeroku</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringHeroku</name>
+	<packaging>war</packaging>
 	<description>SpringHeroku</description>
 	<properties>
 		<java.version>1.8</java.version>
