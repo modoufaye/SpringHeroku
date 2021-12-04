@@ -6,14 +6,19 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class SecurityController {
 
-    @GetMapping(value = "login")
+    @GetMapping(value = "/login")
     public String connect(){
-        return "/login";
+        return "login";
     }
 
     @GetMapping(value = "/")
     public String index(){
-        return "/login";
+        return "listEtudiant";
+    }
+
+    @GetMapping(value = "/notAuthorized")
+    public String nonAutorisé(){
+        return "notAuthorized";
     }
 
 }
